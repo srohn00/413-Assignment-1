@@ -10,7 +10,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Include="wwwroot\css\Startup.cs" />
+    <Content Include="Startup.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OdeToCode.UseNodeModules" Version="3.0.0" />
   </ItemGroup>
 
 </Project>

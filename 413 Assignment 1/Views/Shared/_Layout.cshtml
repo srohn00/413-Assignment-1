@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <!--link to css file-->
+    <link href="css/assignment1.css" rel="stylesheet" />
+    <!--favicon/icon on tab-->
+    <link rel="shortcut icon" type="image/jpg" href="img/favicon (1).ico" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <header>
+        <h1>@ViewBag.Title</h1>
+        <menu>
+            <ul>
+                <li><a asp-controller="Home" asp-action="Index">Home</a></li>
+                <li><a asp-controller="Home" asp-action="GradeCalculator">Grade Calculator</a></li>
+            </ul>
+        </menu>
+    </header>
+
+    @RenderBody()
+
+    <footer>wow so cool its a footer!</footer>
+
+    <script src="~/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="gradeCalculator.js"></script>
+</body>
+</html>
