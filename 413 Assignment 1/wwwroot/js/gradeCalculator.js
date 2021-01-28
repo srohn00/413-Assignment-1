@@ -1,4 +1,5 @@
 ﻿$("#submitButton").click(function () {
+    //alert("beginning alert");
     //define variables
     var assignments;
     var groupProjects;
@@ -43,7 +44,10 @@
         letterGrade = "F";
     //grade output
     displayGrade = grade + "% " + letterGrade;
+    //alert("test alert");
+    alert(displayGrade);
     //send variable value to html to be displayed
-    $("#displayGrade").innerHTML = displayGrade;
+    //$("#displayGrade").innerHTML = displayGrade;
+    
 });
 
